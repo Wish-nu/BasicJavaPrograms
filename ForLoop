@@ -1,0 +1,14 @@
+public class ForLoop {
+    public static void main(String args[]) {
+        
+      int x=0;
+      for(;x<10; x++){
+          System.out.println(x);
+          
+      }
+      // x = 0 for one time, then x printed, then increment, check condition, go into the loop
+        
+      System.out.println("The value of x is :" + x);
+      // Current value of x after for loop
+    }
+}
